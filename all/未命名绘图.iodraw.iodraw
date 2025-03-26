@@ -1,0 +1,311 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="24.7.17">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
+    <mxGraphModel dx="2404" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-1" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;" parent="1" source="C-vyLk0tnHw3VtMMgP7b-24" target="C-vyLk0tnHw3VtMMgP7b-6" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="340" y="720" as="sourcePoint" />
+            <mxPoint x="440" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-12" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;" parent="1" source="C-vyLk0tnHw3VtMMgP7b-3" target="C-vyLk0tnHw3VtMMgP7b-17" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="400" y="180" as="sourcePoint" />
+            <mxPoint x="460" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-2" value="Orders" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="120" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-4" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-3" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-5" value="order_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-3" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-6" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-7" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-6" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-8" value="customer_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-6" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-9" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-10" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-9" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-11" value="order_date date NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-9" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-13" value="Shipments" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="280" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-14" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-15" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-14" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-16" value="shipment_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-14" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-18" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-17" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-19" value="order_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-17" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-20" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-21" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-20" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-22" value="shipment_date date NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-20" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-23" value="Customers" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="120" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-24" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-23" vertex="1">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-25" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-24" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-26" value="customer_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-24" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-27" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-23" vertex="1">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-28" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-29" value="customer_name char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-1" value="&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 700; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; color: rgb(6, 6, 7); letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;部门&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-2" value="&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 700; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; color: rgb(6, 6, 7); letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;项目&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-3" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-4" target="PUBEo8XZMmwwyJM2tR9p-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="-265" />
+              <mxPoint x="290" y="-265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-4" value="&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 700; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; color: rgb(6, 6, 7); letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;实习生&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-5" value="&lt;br&gt;&lt;strong style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-variant-position: inherit; font-variant-emoji: inherit; font-weight: 700; font-stretch: inherit; font-size: 14px; line-height: inherit; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-optical-sizing: inherit; font-size-adjust: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; vertical-align: baseline; color: rgb(6, 6, 7); letter-spacing: 0.25px; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;员工&lt;/strong&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-515" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-6" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-7" target="PUBEo8XZMmwwyJM2tR9p-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-7" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;参与&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-290" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, MIUI, Hiragino Sans GB, Microsoft YaHei, sans-serif&quot; color=&quot;#060607&quot;&gt;&lt;span style=&quot;font-size: 14px; letter-spacing: 0.25px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;实习&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="-405" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-9" value="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-8" target="PUBEo8XZMmwwyJM2tR9p-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="361" y="-360" as="targetPoint" />
+            <mxPoint x="301" y="-360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-10" value="N" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-4" target="PUBEo8XZMmwwyJM2tR9p-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="111" y="-360" as="sourcePoint" />
+            <mxPoint x="191" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-12" target="PUBEo8XZMmwwyJM2tR9p-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-12" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;实习编号&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-195" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-14" target="PUBEo8XZMmwwyJM2tR9p-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="-220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-14" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;年龄&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-165" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-16" target="PUBEo8XZMmwwyJM2tR9p-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="-220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-16" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;姓名&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-155" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="-235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-18" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;项目编号&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-200" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="-235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-20" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;开始日期&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="-170" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="-235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-22" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;项目名称&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-160" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-24" target="PUBEo8XZMmwwyJM2tR9p-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="-225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-24" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;结束日期&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-205" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-26" target="PUBEo8XZMmwwyJM2tR9p-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-26" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;部门编号&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="-670" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-28" target="PUBEo8XZMmwwyJM2tR9p-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-28" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;办公地点&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="-640" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-30" target="PUBEo8XZMmwwyJM2tR9p-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-30" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;部门名称&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="-630" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="-515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-32" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;员工编号&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-660" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="-515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-34" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;级别&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="-630" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="-515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-36" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;姓名&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-620" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="-380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-38" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, MIUI, Hiragino Sans GB, Microsoft YaHei, sans-serif&quot; color=&quot;#060607&quot;&gt;&lt;span style=&quot;font-size: 14px; letter-spacing: 0.25px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;参与&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="-405" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-39" value="M" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-38" target="PUBEo8XZMmwwyJM2tR9p-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479" y="-465" as="targetPoint" />
+            <mxPoint x="590" y="-360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-40" value="N" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-2" target="PUBEo8XZMmwwyJM2tR9p-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479" y="-290" as="sourcePoint" />
+            <mxPoint x="480" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-41" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, MIUI, Hiragino Sans GB, Microsoft YaHei, sans-serif&quot; color=&quot;#060607&quot;&gt;&lt;span style=&quot;font-size: 14px; letter-spacing: 0.25px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;负责&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="534" y="-410" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-42" value="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-41" target="PUBEo8XZMmwwyJM2tR9p-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589" y="-470" as="targetPoint" />
+            <mxPoint x="700" y="-365" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-43" value="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-2" target="PUBEo8XZMmwwyJM2tR9p-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589" y="-295" as="sourcePoint" />
+            <mxPoint x="590" y="-365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-44" value="&lt;span style=&quot;color: rgb(6, 6, 7); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;Segoe UI&amp;quot;, Arial, Roboto, &amp;quot;PingFang SC&amp;quot;, MIUI, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, sans-serif; font-size: 14px; letter-spacing: 0.25px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;工作时间比&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="-410" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-45" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, MIUI, Hiragino Sans GB, Microsoft YaHei, sans-serif&quot; color=&quot;#060607&quot;&gt;&lt;span style=&quot;font-size: 14px; letter-spacing: 0.25px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;经理&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-475" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-46" value="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-45" target="PUBEo8XZMmwwyJM2tR9p-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="321" y="-515" as="targetPoint" />
+            <mxPoint x="466" y="-425" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-47" value="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-1" target="PUBEo8XZMmwwyJM2tR9p-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="336" y="-355" as="sourcePoint" />
+            <mxPoint x="356" y="-425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-48" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, MIUI, Hiragino Sans GB, Microsoft YaHei, sans-serif&quot; color=&quot;#060607&quot;&gt;&lt;span style=&quot;font-size: 14px; letter-spacing: 0.25px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;经理&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="-560" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-49" value="n" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-48" target="PUBEo8XZMmwwyJM2tR9p-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="-540" as="targetPoint" />
+            <mxPoint x="471" y="-510" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUBEo8XZMmwwyJM2tR9p-50" value="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PUBEo8XZMmwwyJM2tR9p-1" target="PUBEo8XZMmwwyJM2tR9p-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="-550" as="sourcePoint" />
+            <mxPoint x="361" y="-510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
